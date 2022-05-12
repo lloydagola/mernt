@@ -7,7 +7,8 @@ try {
         res.status(200).send("welcome to the desert of the real")
     })
 
-} catch (error) {
+} 
+catch (error) {
     console.log("an error occurred in the app router...")
 }
 
