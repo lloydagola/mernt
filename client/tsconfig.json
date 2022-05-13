@@ -1,18 +1,24 @@
 {
-    "compilerOptions": {
-      "esModuleInterop": true,
-      "jsx": "react",
-      "module": "esnext",
-      "moduleResolution": "node",
-      "lib": [
-        "dom",
-        "esnext"
-      ],
-      "strict": true,
-      "sourceMap": true,
-      "target": "esnext",
+  "compilerOptions": {
+    "paths": {
+      "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
     },
-    "exclude": [
-      "node_modules"
-    ]
-  }
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "strict": true,
+    "sourceMap": true,
+    "target": "esnext",
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
